@@ -19,7 +19,7 @@ namespace Adactin.Insurance.Business
         {
             var factor = _occupationRatingService.GetRatingFromOccupation(factors.OccupationId).GetFactor();
 
-            return (factors.SumAssured * factor * factors.Age) / 1000 * 12;
+            return Math.Round((factors.SumAssured * factor * factors.Age) / 1000 * 12, 2);
         }
 
 

@@ -14,7 +14,7 @@ namespace Adactin.Insurance.API.Controllers
             _premiumFacade = premiumFacade;
         }
 
-        [HttpPost("/calculate")]
+        [HttpPost("calculate")]
         public IActionResult CalculatePremium([FromBody] CalculatePremiumRequestDTO request)
         {
             var premium = _premiumFacade.CalculatePremium(request.Age, request.OccupationId, request.DeathSumAssured);
