@@ -5,6 +5,14 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adactin.Insurance.API", "Adactin.Insurance.API\Adactin.Insurance.API.csproj", "{08D4B78A-54BB-4C6C-A949-FEC87B4FC0F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adactin.Insurance.Domain", "Adactin.Insurance.Domain\Adactin.Insurance.Domain.csproj", "{2EB76EEA-43A2-4C1F-B9B5-7A81C049ED40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adactin.Insurance.Business", "Adactin.Insurance.Business\Adactin.Insurance.Business.csproj", "{E10AE232-1256-4FDA-94FB-2390DEFE13DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adactin.Insurance.Core", "Adactin.Insurance.Core\Adactin.Insurance.Core.csproj", "{954C655B-F293-4C9B-93ED-BBFB05290EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adactin.Insurance.UnitTests", "Adactin.Insurance.UnitTests\Adactin.Insurance.UnitTests.csproj", "{C32EB3DE-1B9E-4954-8B7C-8F67C5AE9573}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{08D4B78A-54BB-4C6C-A949-FEC87B4FC0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08D4B78A-54BB-4C6C-A949-FEC87B4FC0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08D4B78A-54BB-4C6C-A949-FEC87B4FC0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EB76EEA-43A2-4C1F-B9B5-7A81C049ED40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB76EEA-43A2-4C1F-B9B5-7A81C049ED40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB76EEA-43A2-4C1F-B9B5-7A81C049ED40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB76EEA-43A2-4C1F-B9B5-7A81C049ED40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E10AE232-1256-4FDA-94FB-2390DEFE13DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E10AE232-1256-4FDA-94FB-2390DEFE13DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E10AE232-1256-4FDA-94FB-2390DEFE13DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E10AE232-1256-4FDA-94FB-2390DEFE13DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954C655B-F293-4C9B-93ED-BBFB05290EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954C655B-F293-4C9B-93ED-BBFB05290EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954C655B-F293-4C9B-93ED-BBFB05290EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954C655B-F293-4C9B-93ED-BBFB05290EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C32EB3DE-1B9E-4954-8B7C-8F67C5AE9573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32EB3DE-1B9E-4954-8B7C-8F67C5AE9573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32EB3DE-1B9E-4954-8B7C-8F67C5AE9573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32EB3DE-1B9E-4954-8B7C-8F67C5AE9573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
