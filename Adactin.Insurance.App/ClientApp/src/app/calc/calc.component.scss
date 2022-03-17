@@ -1,0 +1,40 @@
+.calc-wrapper {
+    height: calc(100vh - 64px);
+    padding: 20px;
+}
+.main-content {
+    width: 350px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.m-row {
+    display: flex;
+}
+.full-width {
+    flex: 1;
+}
+.info {
+    flex-direction: column;
+}
+.error {
+    color: red;
+    font-size: 11px;
+}
+
+.premium {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+
+    background: #dff0d8;
+    padding: 10px;
+    border: solid thin #d6e9c6;
+    color: #3c763d;
+    border-radius: 5px;
+    .premium-amount {
+        flex: 1;
+    }
+}
