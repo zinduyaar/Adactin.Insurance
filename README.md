@@ -1,10 +1,16 @@
-# Adactin Insurance Web API
+# Adactin Insurance Premium Calculator App
 
-This repository contains ASP.NET Core 6 API which serves for front-end app [adactin-premium-calc](https://github.com/zinduyaar/adactin-premium-calc).
+This repository contains code for front-end and back-end of premium calculator app.
 
-See the endpoints here: 
 
-## Endpoints
+
+## Applications
+* Front-end: Angular 13
+* Back-end: .Net Core 6
+
+
+## Demo
+![Alt Text](DemoCalc.gif)
 
 ## Calculate death premium (HTTP POST)
 
